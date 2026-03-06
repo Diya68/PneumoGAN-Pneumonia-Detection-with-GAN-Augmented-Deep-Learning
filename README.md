@@ -36,3 +36,52 @@ The problem addressed in this project is to develop a robust deep learning syste
 3. Machine Learning / AI Techniques
 - Conditional Generative Adversarial Network (cGAN) for synthetic image generation
 - Convolutional Neural Networks (CNN) for pneumonia classification.
+
+## Workflow
+```+---------------------------+
+|     Dataset Collection    |
+| (Kaggle Chest X-ray Data) |
++---------------------------+
+              |
+              v
++---------------------------+
+|     Data Preprocessing    |
+| Resize, Normalize Images  |
++---------------------------+
+              |
+              v
++---------------------------+
+|       Train cGAN Model    |
+| Generator + Discriminator |
++---------------------------+
+              |
+              v
++---------------------------+
+| Generate Synthetic X-rays |
+|  (Pneumonia / Normal)     |
++---------------------------+
+              |
+              v
++---------------------------+
+|  Combine Real + Synthetic |
+|        Dataset            |
++---------------------------+
+              |
+              v
++---------------------------+
+|    Train CNN Classifier   |
+|  Feature Extraction Model |
++---------------------------+
+              |
+              v
++---------------------------+
+|      Model Evaluation     |
+| Accuracy, Recall, AUC     |
++---------------------------+
+              |
+              v
++---------------------------+
+|     Pneumonia Detection   |
+|   Normal vs Pneumonia     |
++---------------------------+
+```
