@@ -29,10 +29,10 @@ The problem addressed in this project is to develop a robust deep learning syste
 
 1. Programming Language:-Python, Deep Learning Framework, TensorFlow, Keras
 2. Libraries & Tools
--NumPy – numerical computations
--Matplotlib – data visualization and training graphs
--OpenCV / PIL – image preprocessing
--Scikit-learn – model evaluation metrics
+- NumPy – numerical computations
+- Matplotlib – data visualization and training graphs
+- OpenCV / PIL – image preprocessing
+- Scikit-learn – model evaluation metrics
 3. Machine Learning / AI Techniques
--Conditional Generative Adversarial Network (cGAN) for synthetic image generation
--Convolutional Neural Networks (CNN) for pneumonia classification.
+- Conditional Generative Adversarial Network (cGAN) for synthetic image generation
+- Convolutional Neural Networks (CNN) for pneumonia classification.
